@@ -1,0 +1,1 @@
+<p>El usuario dice: <?php echo $mensaje ?></p>

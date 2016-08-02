@@ -1,0 +1,462 @@
+/*############# GENERAL #############*/
+@font-face {
+
+font-family: 'AvenirLTStd-Book';
+src: url(../fonts/AvenirLTStd-Book.otf) format("opentype");
+}
+@font-face {
+
+font-family: 'AvenirLTStd-Black';
+src: url(../fonts/AvenirLTStd-Black.otf) format("opentype");
+}
+
+input[type=text]{
+    font-size: 16px;
+    color: #263059;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+   	text-align: center;
+	font-family: 'AvenirLTStd-Book';
+}
+.wrap {
+    margin: 0 auto;
+    width: 75%;
+}
+.columna{
+	width: 83%;
+	margin: 0 auto;
+}
+.container-fluid {
+    padding-right: 0 !important; 
+    padding-left: 0 !important; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+/*############# HEADER #############*/
+
+#cabecera{
+    background: url(../images/header-home.png);
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+div#imgLogo {
+    margin-top: 3%;
+}
+
+div#textosLogo {
+    margin-bottom: 20%;
+}
+
+.navbar-centered .navbar-nav {
+    float: none;
+    text-align: center;
+}
+.navbar-centered .navbar-nav > li {
+    float: none;
+}
+.navbar-centered .nav > li {
+    display: inline;
+}
+.navbar-centered .nav > li > a {
+    display: inline-block;
+}
+.menu {
+    margin: 0 auto;
+    width: 75%;
+    background: #263059;
+    margin-top: -71px;
+}
+.menu li a{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 0.9em;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: #a7243f;
+}
+
+#textosLogo h2{
+    font-family: 'AvenirLTStd-Black';
+    color: #263059;
+    margin-bottom: 0;
+}
+#textosLogo p{
+    font-family: 'AvenirLTStd-Black';
+    color: #c9003a;
+}
+.socialButtons {
+    float: right;
+    margin-top: -120px;
+    width: 50px;
+    position: relative;
+    margin-right: 11px;
+}
+.socialButtons ul {
+    list-style: none;
+    padding: 0px;
+}
+.active{
+    background: #a7243f;
+    color: #fff;
+}
+/*################ INTRO ###################*/
+#intro{
+    margin-top: 6%;
+}
+#piensaEnTi {
+    background: #263059;
+    color: white;
+    padding: 50px;
+    font-size: 1.2em;
+    box-shadow: 3px 7px 49px rgba(0, 0, 0, 0.34);
+    text-align: left;
+}
+#piensaLeft{
+    background: #fff;
+    color: #a7243f;
+    padding: 34px;
+    font-size: 1.2em;
+    text-align: left;
+}
+/*############### SUPERPODERES ##################*/
+#superpoder{
+    padding-bottom: 5%;
+    font-size: 1.3em;
+}
+#superpoder span{
+    font-family: 'AvenirLTStd-Black';
+    color: #263059;
+}
+.escuditoImg {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.escuditoImg img {
+    width: 150px;
+}
+.escuditoTxt {
+    float: left;
+    position: relative;
+    width: 50%;
+    color: #263059;
+    text-align: left;
+    padding-top: 40px;
+
+}
+.escuditoTxt h3 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+#textosSuperPoderes{
+    color: #263059;
+    margin-top: 5%;
+}
+#textosSuperPoderes h2{
+    font-family: 'AvenirLTStd-Black';
+    margin:0;
+}
+.escuditoTxt p {
+    font-size: 0.8em;
+    margin: 0;
+}
+.escudoElement {
+    padding: 20px;
+}
+/*############### FORMULARIO ##################*/
+#cotizadorHome {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    padding: 20px 80px 20px 23px;
+    width: 100%;
+    /* margin-left: 1%; */
+    /* margin-right: 0; */
+    background: #a7243f;
+    color: white;
+}
+#frmCotizador {
+    padding: 30px 13px 30px 13px;
+    background: #252f59;
+    position: relative;
+    width: 40%;
+}
+#colchonVsSeven {
+    padding: 31px 0px 11px 20px;
+    text-align: left;
+    position: relative;
+    width: 50%;
+    float: right;
+}
+#colchonVsSeven span{
+    font-family: 'AvenirLTStd-Black';
+    font-size: 2.5em;
+    letter-spacing: 9px;    
+    text-align: center;
+}
+
+.btnCotizador{
+    font-family: 'AvenirLTStd-Black';
+    color: #252f59;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+}
+.btnCotizador:hover{
+    background: #a7243f;
+    color: #fff;
+}
+#grafica img {
+    width: 110%;
+}
+.formCotizador{
+    margin:0 auto;
+    width: 70%;
+}
+/*############### FOOTER ##################*/
+
+#superheroe img {
+    width: 100%;
+}
+/*############### cotizador ##################*/
+
+#cabeceraCotizador{
+    background: url(../images/cotizadorheader_2300.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#tituloCotizador h1{
+    font-family: 'AvenirLTStd-Black';
+    color: #263059;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    letter-spacing: 7.5px;
+}
+#imgLogoCotizador{
+    margin-top: 243px;
+    margin-bottom: 180px;
+    margin-right: 50px;
+}
+#imgLogoCotizador img{
+    width: 170px;
+}
+#cotizadorHome2{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    width: 100%;
+    background: #a7243f;
+    color: white;
+}
+#frmCotizador2 {
+    background: #252f59;
+    position: relative;
+    width: 40%;
+}
+
+.formCotizador2{
+    margin: 69px auto;
+    width: 70%;
+}
+.formCotizador2 input[type=text] {
+    background: #4d68ae;
+    color: white;
+    text-align: center;
+}
+#colchonVsSeven2 span{
+    font-family: 'AvenirLTStd-Black';
+    font-size: 3em;
+    letter-spacing: 9px;    
+    text-align: center;
+}
+/*############### SUPERPODERES ##################*/
+#superpoderesContain{
+    color: white;
+    margin-bottom: 5%;
+}
+#superpoderesContain span{
+    font-family: 'AvenirLTStd-Black';
+    color: #fff;
+}
+#cabeceraSuperPoderes{
+    background: url(../images/headerPoderes.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#imgLogoPoderes{
+    margin-top: 245px;
+    margin-bottom: 180px;
+    margin-right: 50px;
+    width: 250px;
+    height: 197px;
+    margin-left: 561px;
+}
+
+.porderDescripcionLeft{
+    float: left;
+    background: #a7243f;
+    width: 70%;
+    padding-left: 20%;
+    padding-right: 15%;
+    text-align: left;
+    padding-top: 3.4%;
+    padding-bottom: 4%;
+    margin-top: 3.2%;
+ 
+}
+.porderDescripcionLeft p{
+    margin-left: 70px;
+    margin-top: 8px;
+}
+.porderDescripcionLeft h2 , .porderDescripcionLeft small {
+    padding: 0;
+    margin:0;
+}
+.porderDescripcionRight{
+    margin: 5px;
+    float: right;
+    background: #25305a;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 13.5%;
+    text-align: left;
+    padding-top: 3.4%;
+    padding-bottom: 4%;
+    margin-top: 3.2%;
+}
+.porderDescripcionRight p{
+    margin-left: 70px;
+    margin-top: 8px;
+}
+.porderDescripcionRight h2, .porderDescripcionRight small {
+    padding: 0;
+    margin:0;
+}
+/*############### LALIGA ##################*/
+#laliga{
+    color: white;
+    margin-bottom: 10%;
+}
+.tituloLaliga span{
+    font-family: 'AvenirLTStd-Black';
+    font-size: 1.5em;
+    letter-spacing: 9px;    
+    text-align: left;
+    color: #263059;
+
+}
+.tituloLaliga h1{
+    text-align: left;
+    margin-left: 12%;
+}
+.tituloLaliga h2{
+    font-family: 'AvenirLTStd-Black';
+    color: #263059;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#cabeceraLaLiga{
+    background: url(../images/header_laliga.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#descripcionLaLiga{
+    background: #252f59;
+    padding: 75px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+/*############### UNETE A LA LIGA ##################*/
+#cabeceraUnete{
+    background: url(../images/header-unete.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#unetealaliga{
+    color: #263059;
+    margin-bottom: 8%;
+}
+#titleUnete {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 3.8em;
+    font-family: 'AvenirLTStd-Black';
+}
+#txtDesUnete{
+    text-align: left;
+    font-size: 1.2em;
+}
+#frmUnete {
+    color: white;
+    background: #a7243f;
+    padding: 75px;
+}
+.formUnete input[type=text], .formUnete textarea{
+    border-radius: 35px;
+   margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+/*############### CONTACTOS ##################*/
+#cabeceraContacto{
+    background: url(../images/contacto-header.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#contacto{
+    color: #263059;
+    margin-bottom: 8%;
+}
+#titleContacto {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 3.8em;
+    font-family: 'AvenirLTStd-Black';
+}
+#txtDesContacto{
+    text-align: left;
+    font-size: 1.2em;
+}
+#frmContacto {
+    color: white;
+    background: #a7243f;
+    padding: 75px;
+}
+#frmContacto span{
+    font-family: 'AvenirLTStd-Black';
+}
+
+.formContacto input[type=text]{
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.mapContacto{
+    text-align: center;
+    margin:25px auto;
+}
+#descripcionContacto {
+    margin-top: 15%;
+    padding: 45px;
+}
+
